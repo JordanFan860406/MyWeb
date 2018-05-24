@@ -1,0 +1,346 @@
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>喬丹花論壇</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="picture/flower2.jpg" type="image/ico"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/jquery-3.3.1.min.js"></script>
+    <!-- my web css -->
+    <link rel="stylesheet" href="CSS/web.css">
+  </head>
+  <!-- body -->
+  <body style="font-family:Microsoft JhengHei;font-weight:bold;">
+    <div id="sitebody">
+　    <div id="header">
+      <!-- navBAR 區塊 -->
+      <!-- 導覽列 -->
+          <nav class="navbar navbar-expand-lg beta-menu navbar-dropdown align-items-center fixed-top navbar-toggleable-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="guest.html">
+              <img src="picture/flower2.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+              喬丹花論壇
+            </a>
+            <button class="btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                  <a class="nav-link" href="guest.html">首頁<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">登入會員<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signup.html">加入會員</a>
+                </li>
+
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" id="search" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+      </div>
+
+      <div id="sidebar_left"></div>
+　    <div id="sidebar_right"></div>
+      <!-- 中間區塊 (訪客)-->
+      <div id="content">
+        <div class="container">
+	         <div class="row">
+		           <div class="col-md-12">
+                 <hr class="my-4">
+                  <!-- 大型看板 論壇介紹 -->
+                  <div class="jumbotron bg-light" style="text-align: center;background-image:url('picture/bg2.jpg');">
+                    <h1 class="display-4">喬丹花論壇</h1>
+                    <h1 class="display-5">帶給世界美好的資訊交流平台</h1>
+                    <img src="picture/flower2.jpg" height="300" width="300" class="d-inline-block align-top" alt="">
+                    <h2 class="display-5">美好的事物 推薦給最完美的妳</h2>
+                    <a class="btn btn-primary btn-lg" href="#" id="read" role="button" data-toggle="modal" data-target="#alert">看更多</a>
+                  </div>
+                  <!-- 輪播 -->
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: auto; margin: 0px">
+                       <ol class="carousel-indicators">
+                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                         <li data-target="#myCarousel" data-slide-to="1"></li>
+                         <li data-target="#myCarousel" data-slide-to="2"></li>
+                         <li data-target="#myCarousel" data-slide-to="3"></li>
+                       </ol>
+                       <div class="carousel-inner">
+                         <div class="carousel-item active">
+                           <img class="d-block w-100" src="picture/bear1.jpg" alt="First slide">
+                           <div class="container">
+                            <div class="carousel-caption">
+                              <h1 style="color:black">熊熊遇見你</h1>
+                              <p>卡通頻道 最熱門節目 熊熊烈火 融化你心</p>
+                              <p><a class="btn btn-lg btn-primary" href="https://www.cartoonnetworkasia.com/show/we-bare-bears" role="button">詳細資訊</a></p>
+                            </div>
+                          </div>
+                         </div>
+                         <div class="carousel-item">
+                           <img class="d-block w-100" style="opacity: 0.5;" src="picture/all.jpeg" alt="Second slide">
+                           <div class="carousel-caption" style="color:black">
+                             <h1>2018高師大軟體系送舊晚會</h1>
+                             <p>感恩送別 溫馨祝福</p>
+                             <p><a class="btn btn-lg btn-primary" href="#" role="button">活動資訊</a></p>
+                           </div>
+                         </div>
+                         <div class="carousel-item">
+                           <img class="d-block w-100" width="900" height="620" style="opacity: 0.5;" src="picture/peng.jpg" alt="Third slide">
+                           <div class="carousel-caption" style="color:black">
+                             <h1>第10屆高師大軟體系學會會長當選人</h1>
+                             <h2>109級 彭盛暉</h2>
+                             <p>系上的安全 我責無旁貸</p>
+                             <p><a class="btn btn-lg btn-primary" href="#" role="button">特別專訪</a></p>
+                           </div>
+                         </div>
+                         <div class="carousel-item">
+                           <img class="d-block w-100" width="900" height="620" style="opacity: 0.5;" src="picture/lin3.jpg" alt="Third slide">
+                           <div class="carousel-caption" style="color:black">
+                             <h1>炅翰生日快樂</h1>
+                             <h2>108級 林炅翰</h2>
+                             <p>大家的幸福 由我來守護</p>
+                             <p><a class="btn btn-lg btn-primary" id="linHBD" data-toggle="modal" data-target="#alert" role="button">特別祝福</a></p>
+                           </div>
+                         </div>
+                       </div>
+                       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="sr-only">Previous</span>
+                       </a>
+                       <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                         <span class="sr-only">Next</span>
+                       </a>
+                     </div>
+                   <!-- 輪播結束 -->
+                  <hr class="my-3">
+                  <!-- 論壇分區 -->
+                  <div class="row">
+                		<div class="col-md-12">
+                			<h1 class="text-center">
+                				討論區
+                			</h1>
+                      <div class="row">
+                        <!-- 交友區 -->
+                         <div class="col-md-4">
+                           <div class="card mb-4 box-shadow">
+                             <img class="card-img-top" width="250" height="200" src="picture/friend.gif" alt="Card image cap">
+                             <div class="card-body">
+                               <p class="display-5">交友專區</p>
+                               <p class="card-text"></p>
+                               <div class="d-flex justify-content-between align-items-center">
+                                 <div class="btn-group">
+                                    <button type="button" onclick="javascript:location.href='signup.html'" class="btn btn-lg btn-outline-primary">立即註冊</button>
+                                 </div>
+                                 <small class="text-muted" id="friend-update">50分鐘前</small>
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                         <!-- 遊戲區 -->
+                         <div class="col-md-4">
+                           <div class="card mb-4 box-shadow">
+                             <img class="card-img-top" width="250" height="200" src="picture/game2.jpeg" alt="Card image cap">
+                             <div class="card-body">
+                               <p class="display-5">遊戲專區</p>
+                               <p class="card-text"></p>
+                               <div class="d-flex justify-content-between align-items-center">
+                                 <div class="btn-group">
+                                   <button type="button" onclick="javascript:location.href='index.html'" class="btn btn-lg btn-outline-primary">立即遊玩</button>
+                                 </div>
+                                 <small class="text-muted" id="game-update">3小時前</small>
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                         <!-- 影音區 -->
+                         <div class="col-md-4">
+                           <div class="card mb-4 box-shadow">
+                             <img class="card-img-top" width="250" height="200"  src="picture/TV2.png" alt="Card image cap">
+                             <div class="card-body">
+                               <p class="display-5">影音專區</p>
+                               <p class="card-text"></p>
+                               <div class="d-flex justify-content-between align-items-center">
+                                 <div class="btn-group">
+                                    <button type="button" onclick="javascript:location.href='index.html'" class="btn btn-lg btn-outline-primary">立即觀看</button>
+                                 </div>
+                                 <small class="text-muted" id="video-update">1天前</small>
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                  <!-- 論壇分區結束 -->
+              </div>
+              <hr class="my-3">
+              <!-- 合作夥伴 -->
+              <div class="row text-center">
+            		<div class="col-md-12">
+            			<h1>
+            				合作夥伴
+            			</h1>
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <img class="rounded-circle" src="picture/chen.jpg" alt="chen" width="140" height="140">
+                      <h2>陳建安</h2>
+                      <p>網頁開發夥伴</p>
+                      <p><a class="btn btn-secondary" id="chen" href="#" role="button" data-toggle="modal" data-target="#alert">View details &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                      <img class="rounded-circle" src="picture/lin.jpg" alt="lin" width="140" height="140">
+                      <h2>林炅翰</h2>
+                      <p>愛情專業顧問</p>
+                      <p><a class="btn btn-secondary" id="lin" href="#" role="button" data-toggle="modal" data-target="#alert">View details &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                      <img class="rounded-circle" src="picture/yi2.jpg" alt="yi" width="140" height="140">
+                      <h2>張易展</h2>
+                      <p>娛樂搞笑專家</p>
+                      <p><a class="btn btn-secondary" id="yi" href="#" role="button" data-toggle="modal" data-target="#alert">View details &raquo;</a></p>
+                    </div><!-- /.col-lg-4 -->
+                  </div><!-- /.row -->
+            		</div>
+            	</div>
+              <hr class="my-4">
+              <!-- 贊助廠商 -->
+              <div class="row text-center">
+            		<div class="col-md-12">
+                  <h1>贊助廠商</h1>
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <a href="https://w3.nknu.edu.tw"><img src="picture/nknu.png" alt="nknu" width="140" height="140"></a>
+                      <h2>國立高雄師範大學</h2>
+                      <p>高等研究中心</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="http://www.se.nknu.edu.tw/web/index.php"><img src="picture/SE.png" alt="SE" width="140" height="140"></a>
+                        <h2>高師大軟體系</h2>
+                        <p>技術開發指導</p>
+                    </div>
+                    <div class="col-lg-4">
+                      <a href="https://henjorly.ddns.net/pigtalk/index.html"><img src="picture/pig.png" alt="pig" width="140" height="140"></a>
+                      <h2>語錄豬</h2>
+                      <p>聊天機器人開發</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             <hr class="my-4">
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- modal 用來取代 alert -->
+      <div class="modal fade" id="alert" style="background-color:rgba(0, 0, 0, 0.6);">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content" style="background-color:rgba(255, 255, 255, 0.1);color:white">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ModalTitle"></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <!-- footer -->
+        <footer>
+        <div>
+          <a href="mailto:j860406g@gmail.com" style="color:white">聯絡我</a>
+          <a href="https://line.me/ti/p/gaDiRxr8jY" style="color:white">廣告刊登</a>
+        </div>
+        <div>
+          <p>本站言論不代表創辦人立場 純屬虛構</p>
+          <p>© Copyright 2018 Jordan Flower - All Rights Reserved</p>
+        </div>
+      </footer>
+     </div>
+
+      </div>
+    </div>
+
+    <!-- JS控制  -->
+    <script type="text/javascript">
+      //看更多按鈕事件
+      $('#read').click(function(){
+          document.getElementById("ModalTitle").innerHTML = "創辦人";
+          document.getElementById("modalBody").innerHTML = "<img class='card-img-top' width='300' height='450'  src='picture/me.jpg'>" +
+                                                           "<h1>范晉桓</h1>" +
+                                                            "<p class='display-5'>英文: Jordan Flower" +
+                                                           "<p class='display-5'>生日: 1997/04/06</p>" +
+                                                           "<p class='display-5'>學歷: 國立高雄師範大學</p>" +
+                                                           "<p class='display-5'>經歷: 第9屆高師大軟體系學會會長</p>" +
+                                                           "<p class='display-5'>電子信箱:<a style='color:white' href='mailto:j860406g@gmail.com'>j860406g@gmail.com</a></p>" +
+                                                           "<p class='display-5'>連絡電話:<a style='color:white' href='tel:0988-944-872'>0988-944-872</a></p>";
+      });
+
+      //網頁合作夥伴 按鈕
+      $('#chen').click(function(){
+          document.getElementById("ModalTitle").innerHTML = "網頁合作夥伴";
+          document.getElementById("modalBody").innerHTML = "<img class='card-img-top' width='300' height='450'  src='picture/chen2.jpg'>" +
+                                                           "<h1>陳建安</h1>" +
+                                                            "<p class='display-5'>英文: SeaFood King(海鮮王)" +
+                                                           "<p class='display-5'>生日: 1997/08/07</p>" +
+                                                           "<p class='display-5'>學歷: 國立高雄師範大學</p>" +
+                                                           "<p class='display-5'>經歷: SFK海鮮王戰隊隊長</p>" +
+                                                           "<p class='display-5'>興趣: 吃海鮮、去屏東" +
+                                                           "<p class='display-5'>個人網站:<a style='color:white' href='https://henjorly.ddns.net/pigtalk/index.html'>語錄豬</a></p>";
+      });
+
+      //愛情專業 按鈕
+      $('#lin').click(function(){
+          document.getElementById("ModalTitle").innerHTML = "愛情專業顧問";
+          document.getElementById("modalBody").innerHTML = "<img class='card-img-top' width='300' height='450'  src='picture/lin2.jpg'>" +
+                                                           "<h1>林炅翰</h1>" +
+                                                           "<p class='display-5'>英文: Dama-jiung(大麻炅)" +
+                                                           "<p class='display-5'>生日: 1997/05/03</p>" +
+                                                           "<p class='display-5'>學歷: 國立高雄師範大學</p>" +
+                                                           "<p class='display-5'>經歷: 教你如何10天交到女友 作者</p>" +
+                                                           "<p class='display-5'>興趣: 跟女生聊天視訊</p>" +
+                                                           "<p class='display-5'>個人網站: <a style='color:white' href='https://www.facebook.com/profile.php?id=100001553616374'>林炅翰</a></p>";
+      });
+
+      //娛樂專家 按鈕
+      $('#yi').click(function(){
+          document.getElementById("ModalTitle").innerHTML = "娛樂搞笑專家";
+          document.getElementById("modalBody").innerHTML = "<img class='card-img-top' width='300' height='450'  src='picture/yi2.gif'>" +
+                                                           "<h1>張易展(師哥)</h1>" +
+                                                           "<p class='display-5'>英文: GAYA" +
+                                                           "<p class='display-5'>生日: 1997/05/06</p>" +
+                                                           "<p class='display-5'>學歷: 國立高雄師範大學</p>" +
+                                                           "<p class='display-5'>經歷: 和弟弟合作打斷媽媽的手、騎摩托車騎到120KM、JAVA被當2次</p>" +
+                                                           "<p class='display-5'>興趣: 騙人、看奇怪的影片</p>" +
+                                                           "<p class='display-5'>個人網站: <a style='color:white' href='http://60de5ec9.orson.website/5/homenew?ts=1525264744666'>醜臭胖騙笨髒</a></p>";
+      });
+
+      //LIN HBD按鈕事件
+      $('#linHBD').click(function(){
+        document.getElementById("ModalTitle").innerHTML = "生日快樂";
+        document.getElementById("modalBody").innerHTML = "<div class='video-container'><iframe width='560' height='315' src='https://www.youtube.com/embed/AerP9lgnvEs' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe></div>";
+      });
+
+
+
+
+    </script>
+    <!-- ................................................................................................................................................................................................. -->
+
+    <!-- ........................................................................................................ -->
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
